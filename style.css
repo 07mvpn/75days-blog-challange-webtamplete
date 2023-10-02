@@ -3,7 +3,8 @@ body {
 }
 
 .container-fluid {
-    background-color: #EADBC8;
+    /* background-color: #EADBC8; */
+    background-color: #4FBDBA;
 
 }
 
@@ -12,8 +13,27 @@ body {
 }
 /* Body Section CSS */
 
+/* .color-box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+  } */
 
+.left-sidebar-div {
+background-color: rgb(153, 248, 145);
+height: 100px;
+}
 
+.body-section-div {
+background-color: rgb(218, 157, 116);
+height: 1000px;
+}
+
+.right-sidebar-div {
+background-color: rgb(159, 159, 255);
+height: 100px;
+}
 
 
  @media (max-width: 767px) {
@@ -49,4 +69,3 @@ body {
 
 
   }
-  
