@@ -30,12 +30,13 @@ body {
 .left-sidebar-div {
 background-color: rgb(153, 248, 145);
 height: 100px;
-
 }
 
 .body-section-div {
 background-color: rgb(218, 157, 116);
 height: 1000px;
+/* padding-left: 10%;
+padding: 10%; */
 }
 
 .right-sidebar-div {
@@ -64,7 +65,7 @@ height: 100px;
 }
 
 a {
-    color: #102C57;
+    color: #0400fc;
     text-decoration: none;
 }
 
@@ -82,11 +83,40 @@ a {
     }
     
     .container-fluid {
-        margin-top: -7px;
+        padding:5px;
         margin-bottom: -5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 2px;
+        width: 100%;
     }
+    .left-sidebar-div {
+        display: none;
+      }
+
+.body-section-div {
+        width: 90%;
+        margin-top: 5px;
+        margin-left: 5%;
+        margin-bottom: 5px;
+      }
+      .right-sidebar-div {
+        width: 90%;
+        margin-top: 5px;
+        margin-left: 5%;
+        margin-bottom: 5px;
+      }
+
+   .footer-container {
+       .right-sidebar-div {
+        width: 90%;
+        margin-top: 5px;
+        margin-left: 5%;
+        margin-bottom: 5px;
+   }
 
 
+ }
   
 
   @media (min-width: 768px) {
