@@ -1,0 +1,46 @@
+body {
+    background-color: #F8F0E5;
+}
+
+.container-fluid {
+    background-color: #EADBC8;
+
+}
+
+.navbar-brand {
+    color:#102C57;
+}
+
+
+ @media (max-width: 767px) {
+    /* Styles for mobile devices */
+    body {
+      background-color: #F8F0E5;
+      font-size: 14px;
+    }
+    
+    .container-fluid {
+        margin-top: -7px;
+        margin-bottom: -5px;
+    }
+
+
+  }
+  
+
+  @media (min-width: 768px) {
+    /* Styles for larger screens (PC users) */
+    body {
+      background-color: #F8F0E5;
+      font-size: 16px;
+    }
+
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 120px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+  }
+  
