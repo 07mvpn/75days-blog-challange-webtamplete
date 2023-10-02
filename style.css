@@ -11,6 +11,8 @@ body {
 .navbar-brand {
     color:#102C57;
 }
+
+
 /* Body Section CSS */
 
 /* .color-box {
@@ -20,9 +22,15 @@ body {
     margin: 10px;
   } */
 
+  .container {
+    display: contents;
+  }
+
+
 .left-sidebar-div {
 background-color: rgb(153, 248, 145);
 height: 100px;
+
 }
 
 .body-section-div {
@@ -34,6 +42,36 @@ height: 1000px;
 background-color: rgb(159, 159, 255);
 height: 100px;
 }
+
+/* Footer CSS Start */
+
+.contact-div{
+    color: #102C57;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.about-us-div {
+    color: #102C57;
+ text-align: left;
+ padding-left: 10%;
+}
+
+.social-media-div {
+    color: #102C57;
+    text-align: left;
+    padding-left: 10%;
+}
+
+a {
+    color: #102C57;
+    text-decoration: none;
+}
+
+.social-media-div a:hover {
+    color:rgb(0, 80, 20); /* Change the color on hover to blue */
+    text-decoration: underline; /* Add underline on hover */
+  }
 
 
  @media (max-width: 767px) {
