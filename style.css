@@ -11,6 +11,23 @@ body {
     color:#102C57;
 }
 
+.content-section-div{
+background-color: #006dc7;
+height: 50px;
+}
+
+.right-sidebar-section-div{
+    background-color: aquamarine;
+    height: 50px;
+
+}
+
+.left-sidebar-section-div{
+    background-color:chocolate;
+    height: 50px;
+}
+
+
 
  @media (max-width: 767px) {
     /* Styles for mobile devices */
