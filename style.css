@@ -1,139 +1,122 @@
 body {
-    background-color: #F8F0E5;
-}
-
-.container-fluid {
-    /* background-color: #EADBC8; */
-    background-color: #4FBDBA;
-
-}
-
-.navbar-brand {
-    color:#102C57;
-}
-
-
-/* Body Section CSS */
-
-/* .color-box {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    margin: 10px;
-  } */
-
-  .container {
-    display: contents;
-  }
-
-
-.left-sidebar-div {
-background-color: rgb(153, 248, 145);
-height: 100px;
-}
-
-.body-section-div {
-background-color: rgb(218, 157, 116);
-height: 1000px;
-/* padding-left: 10%;
-padding: 10%; */
-}
-
-.right-sidebar-div {
-background-color: rgb(159, 159, 255);
-height: 100px;
-}
-
-/* Footer CSS Start */
-
-.contact-div{
-    color: #102C57;
-    text-align: left;
-    padding-left: 10%;
-}
-
-.about-us-div {
-    color: #102C57;
- text-align: left;
- padding-left: 10%;
-}
-
-.social-media-div {
-    color: #102C57;
-    text-align: left;
-    padding-left: 10%;
-}
-
-a {
-    color: #0400fc;
-    text-decoration: none;
-}
-
-.social-media-div a:hover {
-    color:rgb(0, 80, 20); /* Change the color on hover to blue */
-    text-decoration: underline; /* Add underline on hover */
-  }
-
-
- @media (max-width: 767px) {
-    /* Styles for mobile devices */
-    body {
-      background-color: #F8F0E5;
-      font-size: 14px;
-    }
-    
-    .container-fluid {
-        padding:5px;
-        margin-bottom: -5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 2px;
-        width: 100%;
-    }
-    .left-sidebar-div {
-        display: none;
-      }
-
-.body-section-div {
-        width: 90%;
-        margin-top: 5px;
-        margin-left: 5%;
-        margin-bottom: 5px;
-      }
-      .right-sidebar-div {
-        width: 90%;
-        margin-top: 5px;
-        margin-left: 5%;
-        margin-bottom: 5px;
-      }
-
-   .footer-container {
-       .right-sidebar-div {
-        width: 90%;
-        margin-top: 5px;
-        margin-left: 5%;
-        margin-bottom: 5px;
-   }
-
-
+  background-color: #EEEEEE;
  }
-  
-
-  @media (min-width: 768px) {
-    /* Styles for larger screens (PC users) */
-    body {
-      background-color: #F8F0E5;
-      font-size: 16px;
+ 
+ h5 {
+     color: #00ADB5;
+ }
+ 
+ hr {
+     color: #00ADB5;
+ }
+ 
+ 
+ .container{
+     color:aliceblue
+ }
+ 
+ .container-fluid {
+     background-color: #00ADB5;
+     color: #EEEEEE;
+ }
+ 
+ 
+ /* .row{
+     height: 120px;
+     width: auto;
+     background-color: black;
+     margin-top: 5px;
+ } */
+ 
+ 
+ .left-sidebar-div {
+     background-color: rgb(126, 2, 2);
+    height: 50px;
+ }
+ 
+ 
+ 
+ .body-section-div {
+     background-color: blue;
+     height: 500px;
+ }
+ 
+ .right-sidebar-div{
+     background-color: rgb(61, 122, 0);
+     height: 100px;
+ }
+ 
+ .ABout-us-div{
+     color: #393E46;
+ }
+ 
+ .Social-media-div {
+     color: #393E46;
+ }
+ 
+ .list-unstyled {
+     text-decoration: none;
+ }
+ 
+ 
+ .contact-us-div {
+     color: #393E46;
+ }
+ 
+ 
+ @media (max-width: 767px) {
+     /* Styles for mobile devices */
+     body {
+       background-color: #EEEEEE;
+       font-size: 14px;
+     }
+     
+     .container-fluid {
+         padding:5px;
+         background-color: #00ADB5;
+         /* margin-left: 2%;
+         margin-right: 5px; */
+     }
+     .left-sidebar-div {
+         display: none;
+       }
+ 
+ .body-section-div {
+         width: 95%;
+         margin-top: 2px;
+         margin-left: 2.5%;
+         margin-bottom: 5px;
+         
+       }
+       .right-sidebar-div {
+         margin-top: 5px;
+         margin-left: 2.5%;
+         margin-bottom: 5px;
+         width: 95%;
+       }
+ 
+    .footer-container {
+        .right-sidebar-div {
+         margin-top: 5px;
+         margin-left: 5%;
+         margin-bottom: 5px;
     }
-
-    .container-fluid {
-        padding-left: 50px;
-        padding-right: 120px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-
-
-
-
+ 
+ 
   }
+   
+ 
+   @media (min-width: 768px) {
+     /* Styles for larger screens (PC users) */
+     body {
+       font-size: 16px;
+     }
+ 
+     .container-fluid {
+         padding-left: 50px;
+         padding-right: 120px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+     }
+ 
+   }

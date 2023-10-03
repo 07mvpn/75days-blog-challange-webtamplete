@@ -1,19 +1,25 @@
 body {
- background-color: aquamarine;
+ background-color: #EEEEEE;
 }
 
 h5 {
-    color: black;
+    color: #00ADB5;
 }
 
 hr {
-    color: red;
+    color: #00ADB5;
 }
 
 
 .container{
     color:aliceblue
 }
+
+.container-fluid {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
 
 /* .row{
     height: 120px;
@@ -41,11 +47,11 @@ hr {
 }
 
 .ABout-us-div{
-    color: black
+    color: #393E46;
 }
 
 .Social-media-div {
-    color: black;
+    color: #393E46;
 }
 
 .list-unstyled {
@@ -54,5 +60,63 @@ hr {
 
 
 .contact-us-div {
-    color: black;
+    color: #393E46;
 }
+
+
+@media (max-width: 767px) {
+    /* Styles for mobile devices */
+    body {
+      background-color: #EEEEEE;
+      font-size: 14px;
+    }
+    
+    .container-fluid {
+        padding:5px;
+        background-color: #00ADB5;
+        /* margin-left: 2%;
+        margin-right: 5px; */
+    }
+    .left-sidebar-div {
+        display: none;
+      }
+
+.body-section-div {
+        width: 95%;
+        margin-top: 2px;
+        margin-left: 2.5%;
+        margin-bottom: 5px;
+        
+      }
+      .right-sidebar-div {
+        margin-top: 5px;
+        margin-left: 2.5%;
+        margin-bottom: 5px;
+        width: 95%;
+      }
+
+   .footer-container {
+       .right-sidebar-div {
+        margin-top: 5px;
+        margin-left: 5%;
+        margin-bottom: 5px;
+   }
+
+
+ }
+  
+
+  @media (min-width: 768px) {
+    /* Styles for larger screens (PC users) */
+    body {
+      font-size: 16px;
+    }
+
+    .container-fluid {
+        padding-left: 50px;
+        padding-right: 120px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+  }
