@@ -2,22 +2,57 @@ body {
  background-color: aquamarine;
 }
 
+h5 {
+    color: black;
+}
+
+hr {
+    color: red;
+}
 
 
+.container{
+    color:aliceblue
+}
+
+/* .row{
+    height: 120px;
+    width: auto;
+    background-color: black;
+    margin-top: 5px;
+} */
 
 
 .left-sidebar-div {
-    background-color: red;
+    background-color: rgb(126, 2, 2);
+   height: 50px;
 }
+
 
 
 .body-section-div {
     background-color: blue;
+    height: 500px;
 }
 
 .right-sidebar-div{
-    background-color: chartreuse;
+    background-color: rgb(61, 122, 0);
+    height: 100px;
+}
+
+.ABout-us-div{
+    color: black
+}
+
+.Social-media-div {
+    color: black;
+}
+
+.list-unstyled {
+    text-decoration: none;
 }
 
 
-
+.contact-us-div {
+    color: black;
+}
