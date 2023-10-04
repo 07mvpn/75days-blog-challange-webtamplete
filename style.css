@@ -59,61 +59,33 @@ body {
 /*  My Learmning Apply */
 
 
-#Day01 {
-height: 50px;
-width: 50px;
+.Day01 {
+height: 100%;
+width: 50%;
 display: inline-block;
-border: 1px solid black;
+/* border: 1px solid black;
 
-  background-color: antiquewhite;
+  background-color: antiquewhite; */
   flex-grow: 1;
   /* align-self: flex-end; */
   
   }
   
-  #Day02 {
-height: 50px;
-width: 50px;
+  .Day02 {
+height: 100%;
+width: 50%;
 display: inline-block;
-border: 1px solid black;
+/* border: 1px solid black;
 
- background-color: aquamarine;
+ background-color: aquamarine; */
  flex-grow: 1;
     /* flex-shrink: 1; */
-  
-  }
-  
-  #Day03 {
-height: 50px;
-width: 50px;
-display: inline-block;
-border: 1px solid black;
 
-    background-color: red;
-    flex-grow: 1;
   }
   
-  #Day04 {
-height: 50px;
-width: 50px;
-display: inline-block;
-border: 1px solid black;
-
-    background-color: blueviolet;
-    flex-grow: 1;
-  }
-  
-  #Day05 {
-height: 50px;
-width: 50px;
-display: inline-block;
-border: 1px solid black;
-
-    background-color: rgb(116, 255, 97);
-    flex-grow: 1;
-  }
 
   #mycontainer {
+    /* margin-top: 10px; */
     width: 100%;
      height: 300px;
      display: flex;
@@ -136,9 +108,27 @@ border: 1px solid black;
 
 /*  My Learmning Apply END */ 
 
+.card {
+  width: 98%;
+  margin: 25px auto;
+  /* padding: 25px; */
+  border: 1px solid #e21616;
+  border-radius: 10px;
+}
 
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
+.btn {
+  font-size: 18px;
+}
 
 
  @media (max-width: 767px) {
