@@ -20,16 +20,41 @@ body {
      color: #EEEEEE;
  }
  
+ /* .........................Sidebar CSS.............................. */
  
- .left-sidebar-div {
-     background-color: rgb(126, 2, 2);
-    height: 50px;
- }
- 
- 
+.sidebar-h2 {
+  font-size: 18px;
+}
+
+ /* CSS for the Left Sidebar */
+.left-sidebar-div {
+  background-color: #680000;
+  padding: 20px;
+}
+
+.left-sidebar-div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-sidebar-div li {
+  margin-bottom: 10px;
+}
+
+.left-sidebar-div li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.left-sidebar-div li a:hover {
+  color: #ff5733;
+}
+
+/* .........................Sidebar CSS END .............................. */
  
  .body-section-div {
-     background-color: rgb(123, 255, 0);
+     /* background-color: rgb(123, 255, 0); */
      height: 100%;
      /* color: black; */
  }
