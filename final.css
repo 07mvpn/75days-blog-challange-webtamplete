@@ -11,23 +11,12 @@ hr {
   color: #435334;
 }
 
-.progress {
-  position: sticky;
-  top: 0px;
-  z-index: 2;
-}
-
-/* .progress-bar {
-  margin-top: 10px;
-  margin-bottom: 10px;
-} */
-
 /* Navbar CSS */
 .navbar {
   background-color: #f0f0f0;
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .container-fluid {
@@ -60,12 +49,18 @@ hr {
   color: #3498db; /* Change color on hover */
 }
 
+.dropdown-menu {
+  z-index: 5;
+}
+
 .dropdown-menu .dropdown-item {
   color: #000000;
+  z-index: 5;
 }
 
 .dropdown-menu .dropdown-item:hover {
   background-color: #CEDEBD;
+  z-index: 5;
 }
 
 /* Style for the search form */
@@ -85,7 +80,13 @@ hr {
   background-color: #2980b9; 
   border-color: #2980b9;
 }
-
+/* Progressbar CSS */
+.progress {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  /* width: 100%; */
+}
 /* .........About US CSS........... */
 .about-us-div {
   background-color: #f0f0f0;
@@ -150,7 +151,7 @@ hr {
 }
 
 .left-sidebar-div {
-  background-color: #b86b00;
+  background-color: #462900;
   /* position: fixed;
   top:68px;
   z-index: 1; */
@@ -176,6 +177,7 @@ hr {
 
 .sidebar-h2 {
   font-size: 18px;
+  color: #FAF1E4;
 }
 
 .left-sidebar-div ul,
