@@ -1,31 +1,101 @@
 /* Global styles */
 body {
-  background-color: #eeeeee;
+  background-color: #FAF1E4;
 }
 
 h5 {
-  color: #00adb5;
+  color: #435334;
 }
 
 hr {
-  color: #00adb5;
+  color: #435334;
 }
 /* Navbar CSS */
 .navbar {
+  background-color: #f0f0f0;
   position: sticky;
   top: 0px;
   z-index: 1;
 }
 
-
-.container {
-  color: aliceblue;
-}
-
 .container-fluid {
-  background-color: #00adb5;
-  color: #eeeeee;
+  background-color: #CEDEBD;
+  color: #435334;
 }
+
+.navbar-brand {
+  color: #435334;
+  margin-right: 5px;
+}
+
+.nav-link  {
+  color: #435334;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Adjust spacing between nav items */
+}
+
+.navbar-nav .nav-link {
+  color: #000000; /* Set the color of the links */
+}
+
+.navbar-nav .nav-link i {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3498db; /* Change color on hover */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #000000;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #CEDEBD;
+}
+
+/* Style for the search form */
+.form-control {
+  width: 200px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: #3498db; 
+  border-color: #3498db;
+  margin-bottom: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9; 
+  border-color: #2980b9;
+}
+
+/* .........About US CSS........... */
+.about-us-div {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about-us-div h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-us-div p {
+  font-size: 16px;
+  color: #555;
+}
+
+.about-us-div i {
+  margin-right: 5px;
+}
+
+
 /* My Fixed Div CSS */
 .fixed-sidebar-h2 {
    font-size: 20px;
@@ -68,7 +138,7 @@ hr {
 }
 
 .left-sidebar-div {
-  background-color: #680000;
+  background-color: #b86b00;
   /* position: fixed;
   top:68px;
   z-index: 1; */
@@ -119,7 +189,7 @@ hr {
 .left-sidebar-card3 li a,
 .left-sidebar-card4 li a {
   text-decoration: none;
-  color: white;
+  color: #FAF1E4;
   display: block;
 }
 
@@ -148,12 +218,65 @@ hr {
 .ABout-us-div,
 .Social-media-div,
 .contact-us-div {
-  color: #393e46;
+  color: #435334;
 }
 
-.list-unstyled {
-  text-decoration: none;
+/* Style for the social list */
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+.social-list li {
+  margin-bottom: 10px;
+}
+
+.social-list li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #3498db; /* Blue background color */
+  color: white; /* Text color */
+  border-radius: 5px;
+}
+
+.social-list li a i {
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.social-list li a:hover {
+  background-color: #2980b9; 
+}
+
+/* Some Footer CSS */
+/* Style for the address section */
+address {
+  font-size: 16px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+address strong {
+  font-weight: bold;
+}
+
+address a {
+  text-decoration: none;
+  color: #3498db; /* Blue color for links */
+}
+
+address a:hover {
+  color: #2980b9; /* Darker blue on hover */
+}
+
+/* Style for Font Awesome icons */
+address i {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+  margin-bottom: 10px;
+}
+
 
 /* My Learning Apply */
 .Day01, .Day02, .Day03, .Day04, .Day05, .Day06 {
@@ -175,7 +298,7 @@ hr {
 .card {
   width: 98%;
   margin: 25px auto;
-  border: 1px solid #e21616;
+  border: 1px solid #435334;
   border-radius: 10px;
   transition: box-shadow 0.3s;
 }
@@ -195,7 +318,7 @@ hr {
 }
 
 .card:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px #9EB384;
 }
 
 /* Animation on button click */
@@ -218,13 +341,13 @@ hr {
 /* Media queries */
 @media (max-width: 767px) {
   body {
-      background-color: #eeeeee;
+      background-color: #FAF1E4;
       font-size: 14px;
   }
 
   .container-fluid {
       padding: 5px;
-      background-color: #00adb5;
+      background-color: #CEDEBD;
   }
 
   .left-sidebar-div,
