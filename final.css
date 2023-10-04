@@ -145,7 +145,7 @@ hr {
 }
 
 .right-sidebar-div {
-  background-color: #0c6800;
+  background-color: #FAF1E4;
   position: sticky;
   top: 0px;
 }
@@ -306,6 +306,7 @@ address i {
 .card-title {
   font-size: 20px;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .card-text {
