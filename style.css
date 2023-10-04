@@ -28,6 +28,7 @@ body {
 
  /* CSS for the Left Sidebar */
 .left-sidebar-div {
+  position: sticky;
   background-color: #680000;
   padding: 20px;
 }
@@ -48,20 +49,132 @@ body {
 }
 
 .left-sidebar-div li a:hover {
-  color: #ff5733;
+  color: greenyellow;
 }
+
+/* right Sidebar */
+
+.sidebar-h2 {
+  font-size: 18px;
+}
+
+ /* CSS for the Right Sidebar */
+.right-sidebar-div {
+  background-color: #0c6800;
+  padding: 20px;
+  height: 100%;
+}
+
+.right-sidebar-div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.right-sidebar-div li {
+  margin-bottom: 10px;
+}
+
+.right-sidebar-div li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.right-sidebar-div li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+
+/* <..................Sidebar Special Cards ................................> */
+
+/* 2nd leftsidebar / card 2 */
+.left-sidebar-card2 {
+  background-color: rgb(108, 110, 0);
+  padding: 20px;
+  display: inline-block;
+  position: sticky;
+}
+
+.left-sidebar-card2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-sidebar-card2 li {
+  margin-bottom: 10px;
+}
+
+.left-sidebar-card2 li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.left-sidebar-card2 li a:hover {
+  color: rgb(255, 107, 107);
+}
+
+/* 3rd leftsidebar / card 3*/
+
+.left-sidebar-card3 {
+  background-color: rgb(0, 122, 116);
+  padding: 20px;
+  display: inline-block;
+  position: sticky;
+}
+
+.left-sidebar-card3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-sidebar-card3 li {
+  margin-bottom: 10px;
+}
+
+.left-sidebar-card3 li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.left-sidebar-card3 li a:hover {
+  color: rgb(48, 255, 65);
+}
+
+/* 4th leftsidebar / card 4*/
+
+.left-sidebar-card4 {
+  background-color: rgb(122, 0, 112);
+  padding: 20px;
+  display: inline-block;
+  position: sticky;
+}
+
+.left-sidebar-card4 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-sidebar-card4 li {
+  margin-bottom: 10px;
+}
+
+.left-sidebar-card4 li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.left-sidebar-card4 li a:hover {
+  color: rgb(48, 162, 255);
+}
+
 
 /* .........................Sidebar CSS END .............................. */
  
  .body-section-div {
-     /* background-color: rgb(123, 255, 0); */
      height: 100%;
-     /* color: black; */
- }
- 
- .right-sidebar-div{
-     background-color: rgb(61, 122, 0);
-     height: 100px;
  }
  
  .ABout-us-div{
@@ -81,6 +194,11 @@ body {
      color: #393E46;
  }
 
+
+
+
+
+
 /*  My Learmning Apply */
 
 
@@ -88,11 +206,7 @@ body {
 height: 100%;
 width: 50%;
 display: inline-block;
-/* border: 1px solid black;
-
-  background-color: antiquewhite; */
   flex-grow: 1;
-  /* align-self: flex-end; */
   
   }
   
@@ -100,41 +214,21 @@ display: inline-block;
 height: 100%;
 width: 50%;
 display: inline-block;
-/* border: 1px solid black;
 
- background-color: aquamarine; */
  flex-grow: 1;
-    /* flex-shrink: 1; */
 
   }
   
 
   #mycontainer {
-    /* margin-top: 10px; */
     width: 100%;
      height: 100%px;
      display: flex;
      flex-direction: row;
-     /* flex-direction: row-reverse; */
-     /* flex-direction: column; */
-     /* flex-direction: column-reverse; */
-     /* justify-propert */
-     /* justify-content: flex-start; */
-     /* justify-content: flex-end; */
-     /* justify-content: center; */
      justify-content: space-around;
-     /* justify-content: space-between; */
-     /* flex-wrap: wrap-reverse; */
-     /* flex-wrap: wrap; */
-     /* align-items: center; */
-     /* align-items: flex-start; */
-     /* align-content: flex-start; */
   }
 
 /*  My Learmning Apply END */ 
-
-
-/* Day 3 and Day 4 CSS */
 
 .Day03 {
   height: 100%;
@@ -152,16 +246,13 @@ display: inline-block;
     }
     
   
-    #mycontainer2 {
+    #mycontainer3 {
       width: 100%;
        height: 300px;
        display: flex;
        flex-direction: row;
        justify-content: space-around;
     }
-
-/* Day 3 and Day 4 CSS END */
-
 
 /* Day 5 and Day 6 CSS */
 .Day05 {
@@ -192,7 +283,6 @@ display: inline-block;
 .card {
   width: 98%;
   margin: 25px auto;
-  /* padding: 25px; */
   border: 1px solid #e21616;
   border-radius: 10px;
   transition: box-shadow 0.3s; /* Smooth transition for box shadow */
@@ -245,12 +335,27 @@ display: inline-block;
      .container-fluid {
          padding:5px;
          background-color: #00ADB5;
-         /* margin-left: 2%;
-         margin-right: 5px; */
      }
      .left-sidebar-div {
          display: none;
        }
+
+       .right-sidebar-div {
+        display: none;
+      }
+
+
+      .left-sidebar-card2 {
+        display: none;
+      }
+
+      .left-sidebar-card3 {
+        display: none;
+      }
+
+      .left-sidebar-card4 {
+      display: none;
+      }
  
  .body-section-div {
          width: 95%;
