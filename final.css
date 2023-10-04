@@ -10,6 +10,18 @@ h5 {
 hr {
   color: #435334;
 }
+
+.progress {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+/* .progress-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
 /* Navbar CSS */
 .navbar {
   background-color: #f0f0f0;
@@ -104,7 +116,7 @@ hr {
 
 .my-fixed-div {
   position: fixed;
-  top:67px;
+  top:80px;
   right: 110px;
   z-index: 1; 
   padding: 20px;
