@@ -1,398 +1,225 @@
+/* Global styles */
 body {
-    background-color: #EEEEEE;
-   }
-   
-   h5 {
-       color: #00ADB5;
-   }
-   
-   hr {
-       color: #00ADB5;
-   }
-   
-   
-   .container{
-       color:aliceblue
-   }
-   
-   .container-fluid {
-       background-color: #00ADB5;
-       color: #EEEEEE;
-   }
-   
-   /* .........................Sidebar CSS.............................. */
-   
-  .sidebar-h2 {
-    font-size: 18px;
-  }
-  
-   /* CSS for the Left Sidebar */
-  .left-sidebar-div {
-    position: sticky;
-    background-color: #680000;
-    padding: 20px;
-  }
-  
-  .left-sidebar-div ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .left-sidebar-div li {
-    margin-bottom: 10px;
-  }
-  
-  .left-sidebar-div li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
-  
-  .left-sidebar-div li a:hover {
-    color: greenyellow;
-  }
-  
-  /* right Sidebar */
-  
-  .sidebar-h2 {
-    font-size: 18px;
-  }
-  
-   /* CSS for the Right Sidebar */
-  .right-sidebar-div {
-    background-color: #0c6800;
-    padding: 20px;
-    height: 100%;
-  }
-  
-  .right-sidebar-div ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .right-sidebar-div li {
-    margin-bottom: 10px;
-  }
-  
-  .right-sidebar-div li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
-  
-  .right-sidebar-div li a:hover {
-    color: rgb(255, 0, 0);
-  }
-  
-  
-  /* <..................Sidebar Special Cards ................................> */
-  
-  /* 2nd leftsidebar / card 2 */
-  .left-sidebar-card2 {
-    background-color: rgb(108, 110, 0);
-    padding: 20px;
-    display: inline-block;
-    position: sticky;
-  }
-  
-  .left-sidebar-card2 ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .left-sidebar-card2 li {
-    margin-bottom: 10px;
-  }
-  
-  .left-sidebar-card2 li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
-  
-  .left-sidebar-card2 li a:hover {
-    color: rgb(255, 107, 107);
-  }
-  
-  /* 3rd leftsidebar / card 3*/
-  
-  .left-sidebar-card3 {
-    background-color: rgb(0, 122, 116);
-    padding: 20px;
-    display: inline-block;
-    position: sticky;
-  }
-  
-  .left-sidebar-card3 ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .left-sidebar-card3 li {
-    margin-bottom: 10px;
-  }
-  
-  .left-sidebar-card3 li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
-  
-  .left-sidebar-card3 li a:hover {
-    color: rgb(48, 255, 65);
-  }
-  
-  /* 4th leftsidebar / card 4*/
-  
-  .left-sidebar-card4 {
-    background-color: rgb(122, 0, 112);
-    padding: 20px;
-    display: inline-block;
-    position: sticky;
-  }
-  
-  .left-sidebar-card4 ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .left-sidebar-card4 li {
-    margin-bottom: 10px;
-  }
-  
-  .left-sidebar-card4 li a {
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
-  
-  .left-sidebar-card4 li a:hover {
-    color: rgb(48, 162, 255);
-  }
-  
-  
-  /* .........................Sidebar CSS END .............................. */
-   
-   .body-section-div {
-       height: 100%;
-   }
-   
-   .ABout-us-div{
-       color: #393E46;
-   }
-   
-   .Social-media-div {
-       color: #393E46;
-   }
-   
-   .list-unstyled {
-       text-decoration: none;
-   }
-   
-   
-   .contact-us-div {
-       color: #393E46;
-   }
-  
-  
-  
-  
-  
-  
-  /*  My Learmning Apply */
-  
-  
-  .Day01 {
+  background-color: #eeeeee;
+}
+
+h5 {
+  color: #00adb5;
+}
+
+hr {
+  color: #00adb5;
+}
+
+.container {
+  color: aliceblue;
+}
+
+.container-fluid {
+  background-color: #00adb5;
+  color: #eeeeee;
+}
+
+/* Sidebar CSS */
+.left-sidebar-div, .right-sidebar-div, 
+.left-sidebar-card2, .left-sidebar-card3, .left-sidebar-card4 {
+  position: sticky;
+  padding: 20px;
+}
+
+.left-sidebar-div {
+  background-color: #680000;
+}
+
+.right-sidebar-div {
+  background-color: #0c6800;
+}
+
+.left-sidebar-card2 {
+  background-color: rgb(108, 110, 0);
+}
+
+.left-sidebar-card3 {
+  background-color: rgb(0, 122, 116);
+}
+
+.left-sidebar-card4 {
+  background-color: rgb(122, 0, 112);
+}
+
+.sidebar-h2 {
+  font-size: 18px;
+}
+
+.left-sidebar-div ul,
+.right-sidebar-div ul,
+.left-sidebar-card2 ul,
+.left-sidebar-card3 ul,
+.left-sidebar-card4 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-sidebar-div li,
+.right-sidebar-div li,
+.left-sidebar-card2 li,
+.left-sidebar-card3 li,
+.left-sidebar-card4 li {
+  margin-bottom: 10px;
+}
+
+.left-sidebar-div li a,
+.right-sidebar-div li a,
+.left-sidebar-card2 li a,
+.left-sidebar-card3 li a,
+.left-sidebar-card4 li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.left-sidebar-div li a:hover {
+  color: greenyellow;
+}
+
+.right-sidebar-div li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.left-sidebar-card2 li a:hover {
+  color: rgb(255, 107, 107);
+}
+
+.left-sidebar-card3 li a:hover {
+  color: rgb(48, 255, 65);
+}
+
+.left-sidebar-card4 li a:hover {
+  color: rgb(48, 162, 255);
+}
+
+/* Other sections */
+.body-section-div,
+.ABout-us-div,
+.Social-media-div,
+.contact-us-div {
+  color: #393e46;
+}
+
+.list-unstyled {
+  text-decoration: none;
+}
+
+/* My Learning Apply */
+.Day01, .Day02, .Day03, .Day04, .Day05, .Day06 {
   height: 100%;
   width: 50%;
   display: inline-block;
-    flex-grow: 1;
-    
-    }
-    
-    .Day02 {
+  flex-grow: 1;
+}
+
+#mycontainer, #mycontainer3 {
+  width: 100%;
   height: 100%;
-  width: 50%;
-  display: inline-block;
-  
-   flex-grow: 1;
-  
-    }
-    
-  
-    #mycontainer {
-      width: 100%;
-       height: 100%px;
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
-    }
-  
-  /*  My Learmning Apply END */ 
-  
-  .Day03 {
-    height: 100%;
-    width: 50%;
-    display: inline-block;
-      flex-grow: 1;
-      
-      }
-      
-      .Day04 {
-    height: 100%;
-    width: 50%;
-    display: inline-block;
-     flex-grow: 1;
-      }
-      
-    
-      #mycontainer3 {
-        width: 100%;
-         height: 300px;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-      }
-  
-  /* Day 5 and Day 6 CSS */
-  .Day05 {
-    height: 100%;
-    width: 50%;
-    display: inline-block;
-      flex-grow: 1;
-      
-      }
-      
-      .Day06 {
-    height: 100%;
-    width: 50%;
-    display: inline-block;
-     flex-grow: 1;
-      }
-      
-    
-      #mycontainer3 {
-        width: 100%;
-         height: 300px;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-      }
-  /* Day 5 and Day 6 CSS END */
-  
-  .card {
-    width: 98%;
-    margin: 25px auto;
-    border: 1px solid #e21616;
-    border-radius: 10px;
-    transition: box-shadow 0.3s; /* Smooth transition for box shadow */
-  }
-  
-  .card-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .card-text {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .btn {
-    font-size: 18px;
-  }
-  
-  .card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Box shadow on hover */
-  }
-  
-  /* Animation on button click */
-  .btn-primary:hover {
-    animation: pulse 0.5s ease infinite;
-  }
-  
-  @keyframes pulse {
-    0% {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Card styles */
+.card {
+  width: 98%;
+  margin: 25px auto;
+  border: 1px solid #e21616;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-size: 18px;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Animation on button click */
+.btn-primary:hover {
+  animation: pulse 0.5s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
       transform: scale(1);
-    }
-    50% {
+  }
+  50% {
       transform: scale(1.05);
-    }
-    100% {
-      transform: scale(1);
-    }
   }
-  
-  /* ///////////////////////////////////////////////////////// */
-  
-   @media (max-width: 767px) {
-       /* Styles for mobile devices */
-       body {
-         background-color: #EEEEEE;
-         font-size: 14px;
-       }
-       
-       .container-fluid {
-           padding:5px;
-           background-color: #00ADB5;
-       }
-       .left-sidebar-div {
-           display: none;
-         }
-  
-         .right-sidebar-div {
-          display: none;
-        }
-  
-  
-        .left-sidebar-card2 {
-          display: none;
-        }
-  
-        .left-sidebar-card3 {
-          display: none;
-        }
-  
-        .left-sidebar-card4 {
-        display: none;
-        }
-   
-   .body-section-div {
-           width: 95%;
-           margin-top: 2px;
-           margin-left: 2.5%;
-           margin-bottom: 5px;
-           
-         }
-         .right-sidebar-div {
-           margin-top: 5px;
-           margin-left: 2.5%;
-           margin-bottom: 5px;
-           width: 95%;
-         }
-   
-      .footer-container {
-          .right-sidebar-div {
-           margin-top: 5px;
-           margin-left: 5%;
-           margin-bottom: 5px;
-      }
-   
-   
-    }
-     
-   
-     @media (min-width: 768px) {
-       /* Styles for larger screens (PC users) */
-       body {
-         font-size: 16px;
-       }
-   
-       .container-fluid {
-           padding-left: 50px;
-           padding-right: 120px;
-           padding-top: 5px;
-           padding-bottom: 5px;
-       }
-   
-     }
+  100% {
+      transform: scale(1);
+  }
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+  body {
+      background-color: #eeeeee;
+      font-size: 14px;
+  }
+
+  .container-fluid {
+      padding: 5px;
+      background-color: #00adb5;
+  }
+
+  .left-sidebar-div,
+  .right-sidebar-div,
+  .left-sidebar-card2,
+  .left-sidebar-card3,
+  .left-sidebar-card4 {
+      display: none;
+  }
+
+  .body-section-div {
+      width: 95%;
+      margin-top: 2px;
+      margin-left: 2.5%;
+      margin-bottom: 5px;
+  }
+
+  .right-sidebar-div {
+      margin-top: 5px;
+      margin-left: 2.5%;
+      margin-bottom: 5px;
+      width: 95%;
+  }
+
+  .footer-container .right-sidebar-div {
+      margin-top: 5px;
+      margin-left: 5%;
+      margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+
+  .container-fluid {
+      padding-left: 50px;
+      padding-right: 120px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
+}

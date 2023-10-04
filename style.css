@@ -116,11 +116,19 @@ body {
 
 /* 3rd leftsidebar / card 3*/
 
+.sidebar-h2-3 {
+  font-size: 18px;
+  color: white;
+}
+
 .left-sidebar-card3 {
   background-color: rgb(0, 122, 116);
   padding: 20px;
   display: inline-block;
   position: sticky;
+  /* background-image: url("Images/pic3.jpg");
+  background-size: cover;
+  filter: grayscale(); */
 }
 
 .left-sidebar-card3 ul {
@@ -134,7 +142,7 @@ body {
 
 .left-sidebar-card3 li a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   display: block;
 }
 
@@ -172,6 +180,15 @@ body {
 
 
 /* .........................Sidebar CSS END .............................. */
+
+
+/* Image  CSS*/
+/* 
+img {
+  image-resolution: 100px;
+} */
+
+/* Image CSS END */
  
  .body-section-div {
      height: 100%;
@@ -193,8 +210,6 @@ body {
  .contact-us-div {
      color: #393E46;
  }
-
-
 
 
 
@@ -302,8 +317,13 @@ display: inline-block;
   font-size: 18px;
 }
 
+.btn:hover {
+  background-color: #007a14;
+}
+
 .card:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Box shadow on hover */
+  background-color: #ebffe8;
 }
 
 /* Animation on button click */
