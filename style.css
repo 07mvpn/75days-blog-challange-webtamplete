@@ -121,7 +121,14 @@ hr {
   right: 110px;
   z-index: 1; 
   padding: 20px;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
   background-color: #690000;
+  background-image: url(Images/hk3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  filter: grayscale();
 }
 
 .my-fixed-div ul {
@@ -164,16 +171,23 @@ hr {
 }
 
 .left-sidebar-card2 {
-  background-color: rgb(108, 110, 0);
+  background-color: rgb(48, 49, 0);
 }
 
 .left-sidebar-card3 {
-  background-color: rgb(0, 122, 116);
+  background-color: rgb(0, 73, 70);
 }
 
 .left-sidebar-card4 {
   background-color: rgb(122, 0, 112);
 }
+/* ..........Sletech/Glitch/Loader CSS........... */
+
+.left-sidebar-loader {
+  background-color: rgb(255, 185, 185);
+}
+
+/* ..........Sletech/Glitch/Loader CSS END........... */
 
 .sidebar-h2 {
   font-size: 18px;
@@ -370,7 +384,8 @@ address i {
   .left-sidebar-card2,
   .left-sidebar-card3,
   .left-sidebar-card4,
-  .my-fixed-div {
+  .my-fixed-div,
+  .left-sidebar-loader {
       display: none;
   }
 
